@@ -112,17 +112,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &530979260
+--- !u!1 &217939033
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 530979264}
-  - component: {fileID: 530979263}
-  - component: {fileID: 530979262}
-  - component: {fileID: 530979261}
+  - component: {fileID: 217939037}
+  - component: {fileID: 217939036}
+  - component: {fileID: 217939035}
+  - component: {fileID: 217939034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -130,26 +130,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &530979261
+--- !u!81 &217939034
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 530979260}
+  m_GameObject: {fileID: 217939033}
   m_Enabled: 1
---- !u!124 &530979262
+--- !u!124 &217939035
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 530979260}
+  m_GameObject: {fileID: 217939033}
   m_Enabled: 1
---- !u!20 &530979263
+--- !u!20 &217939036
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 530979260}
+  m_GameObject: {fileID: 217939033}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -179,12 +179,12 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &530979264
+--- !u!4 &217939037
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 530979260}
+  m_GameObject: {fileID: 217939033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}

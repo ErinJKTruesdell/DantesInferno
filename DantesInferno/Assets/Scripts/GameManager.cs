@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour {
         //Character c = new Character(s);
         //
         //c.rel = playerprefs.GetInt(s);
+        //c.relCount = playerprefs.GetInt(s + "Num");
+        //c.setSprite(s + "Sprite");
         //}
     }
 
@@ -32,6 +34,8 @@ public class GameManager : MonoBehaviour {
         {
             //PlayerPrefs.SetInt(kvp.Key.Name, kvp.value);
 
+            //PlayerPrefs.SetInt(kvp.Key.Name + "Rel",  kvp.key.relationship);
+            //PlayerPrefs.SetInt(kvp.Key.Name + "Sprite",  kvp.key.spriteNun);
         }
     }
 	
