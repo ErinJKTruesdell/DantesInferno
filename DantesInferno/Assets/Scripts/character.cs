@@ -8,7 +8,7 @@ public class character : MonoBehaviour
     public string name_;    //character name
     public int timesSpokenTo_;  //number of times player spoke to character
     public int relPercent_;    //relationship percent   
-    Dictionary<int, string> sprites_;   //dictionary containing sprites
+    Dictionary<int, Texture> sprites_;   //dictionary containing sprites
     Dictionary<int, AudioSource> sounds_;   //dictionary contianing sounds
 
     public Conversation _convo;
