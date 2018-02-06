@@ -55,9 +55,12 @@ public class Conversation : MonoBehaviour {
         
         if (index >= lines.Count)
         {
+            //placeholder text for testing
             List<string> s = new List<string>();
             s.Add("SNEEP SNOP");
             uiman.displayLine("SNORK", s);
+
+            //load next scene or quit app
             Application.Quit();
         }
 
